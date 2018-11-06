@@ -1,0 +1,19 @@
+{
+  "name": "@salling-group/auth",
+  "description": "Makes it easy to authenticate when using Salling Group's APIs.",
+  "repository": "https://github.com/DanskSupermarked/sg-auth",
+  "license": "MIT",
+  "version": "1.0.0",
+  "author": {
+    "name": "Salling Group - API Developers",
+    "email": "apisupport@sallinggroup.com",
+    "url": "https://developer.sallinggroup.com/"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "axios": "0.18.0"
+  },
+  "devDependencies": {
+    "eslint": "5.2.0"
+  }
+}
