@@ -13,4 +13,9 @@ steps:
   displayName: 'Install Node.js'
 
 - script: npm ci
-  displayName: 'npm CI'
+  displayName: 'Install Package'
+
+- task: PublishPipelineArtifact@0
+  displayName: 'Publish Build Artifacts'
+  inputs:
+    targetPath:
