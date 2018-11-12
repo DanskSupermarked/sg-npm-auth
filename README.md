@@ -38,7 +38,7 @@ The provided options object must contain an `auth` object with the following spe
 |--------|-----|--------|-----------|
 |`type`|`'jwt'` or `'bearer'`|Yes|The authentication type. This is either a JWT or a Bearer Token.|
 |`token`|`String`|If `type` is `'bearer'`.|The token associared with the bearer token credentials.|
-|`email`|`String`|If `type` is `'jwt'`.|The email associated with the JWT credentials.|
+|`issuer`|`String`|If `type` is `'jwt'`.|The issuer associated with the JWT credentials.|
 |`secret`|`String`|If `type` is `'jwt'`.|The secret associated with the JWT credentials.|
 
 ## Examples
@@ -64,7 +64,7 @@ const instance = createInstance({
   'applicationName': 'My Application v1.0.1',
   'auth': {
     'type': 'bearer',
-    'email': 'my_email',
+    'issuer': 'my_issuer',
     'secret': 'my_secret',
   },
 });
