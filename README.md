@@ -63,7 +63,7 @@ If you use a JWT, you can access the API like so:
 const instance = createInstance({
   'applicationName': 'My Application v1.0.1',
   'auth': {
-    'type': 'bearer',
+    'type': 'jwt',
     'issuer': 'my_issuer',
     'secret': 'my_secret',
   },
